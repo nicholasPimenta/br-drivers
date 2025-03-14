@@ -1,23 +1,35 @@
 import {
+  ArrowBackCircle,
   CarSharp,
   CarSportSharp,
   Flag,
   LogoInstagram,
   TrophySharp,
 } from "react-ionicons";
+import { useNavigate } from "react-router-dom";
 
 export function Camara() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-blue-800 text-white p-6 flex flex-col items-center">
-      {/* Título do Piloto */}
-      <h1 className="text-4xl font-bold text-center mb-6">Rafael Câmara</h1>
+        {/* Cabeçalho com botão de voltar e título */}
+        <div className="w-full max-w-6xl flex items-center justify-between mb-6">
+          <button
+            onClick={() => navigate("/")}
+            className="cursor-pointer"
+          >
+            <ArrowBackCircle width="40px" height="40px" color="#FEFEFE" />
+          </button>
+          <h1 className="text-4xl font-bold text-center flex-1">Rafael Câmara</h1>
+        </div>
 
       {/* Layout para Desktop e Tablet */}
       <div className="w-full max-w-6xl lg:grid lg:grid-cols-3 gap-8">
         {/* Coluna 1 - Imagem e informações iniciais */}
         <div className="flex flex-col items-center md:flex-row md:justify-center md:p-6 md:gap-4 lg:flex-col lg:p-0 lg:gap-0 lg:justify-normal">
           <img
-            src="/images/camara.jpg"
+            src="/assets/camaraCard.png"
             alt="Rafael Câmara"
             className="w-48 h-48 object-cover rounded-lg shadow-lg border-4 border-white"
           />
