@@ -1,54 +1,71 @@
-# React + TypeScript + Vite
+# 🏎️ Pilotos BR - Gabriel Bortoleto & Rafael Câmara
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Sobre o Projeto
 
-## Expanding the ESLint configuration
+Este site apresenta informações sobre os pilotos brasileiros Gabriel Bortoleto (Fórmula 2) e Rafael Câmara (Fórmula 3) na temporada de 2025. O objetivo é destacar suas trajetórias e conquistas, permitindo que mais pessoas conheçam seus talentos no automobilismo.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O projeto foi desenvolvido utilizando React + TypeScript e estilizado com Tailwind CSS, proporcionando uma interface moderna, responsiva e intuitiva.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📚 Funcionalidades
+
+✨ Home Page: Exibe um card unificado com os dois pilotos. Ao passar o mouse, há um efeito de destaque e, ao clicar, o usuário é redirecionado para a página do respectivo piloto.
+
+✨ Página Individual dos Pilotos: Apresenta informações detalhadas sobre cada piloto, incluindo carreira, principais títulos e trajetória no automobilismo.
+
+✨ Design Responsivo: Adaptação para diferentes dispositivos (desktop, tablet e mobile).
+
+✨ Animações Dinâmicas: Uso do Framer Motion para interações suaves e dinâmicas.
+
+✨ Sistema de Navegação: Botão de "Voltar" para retornar à página inicial do projeto, independentemente de onde o usuário tenha vindo.
+
+## 💻 Tecnologias e Bibliotecas Utilizadas
+
+- **React + TypeScript**
+
+- **Vite (para um build rápido e eficiente)**
+
+- **Tailwind CSS (para estilização responsiva e flexível)**
+
+- **Framer Motion (para animações suaves)**
+
+- **React Router (para roteamento entre páginas)**
+
+## 🌐 Deploy
+
+O projeto está hospedado na Vercel, permitindo acesso rápido e confiável:
+
+[🔗 Pilotos BR - Acesse Aqui((https://br-drivers.vercel.app/))]
+
+## 🛠️ Como Executar o Projeto Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/nicholasPimenta/pilotos-br.git
+```
+2. Acesse a pasta do projeto:
+```sh
+cd pilotos-br
+```
+3. Instale as dependências:
+```sh
+npm install
+```
+Inicie o servidor local:
+```sh
+npm run dev
+```
+Acesse no navegador:
+```sh
+http://localhost:5173
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📜 Licença
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Projeto criado com fins de aprendizado e para porfólio! Fique à vontade para explorar o código, utilizar e adaptá-lo conforme necessário.
+Se gostou, não esqueça de deixar uma ⭐ no repositório! 😃
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+Desenvolvido por **Nicholas Pimenta** 🚀
+
