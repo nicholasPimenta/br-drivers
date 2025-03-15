@@ -137,7 +137,7 @@ export function Bortoleto() {
               Formula 2
             </h2>
             <p className="text-lg text-justify">
-              Com o seu título para a Formula 2, Bortoleto foi promovido para a
+              Com o seu título da Formula 3, Bortoleto foi promovido para a
               Formula 2 e agora pela equipe Invicta Racing. E diferente da sua
               temporada anterior, o começo de Campeonato não foi dos melhores,
               apesar de sua pole na abertura em Sakhir, chegou a ficar quatro
