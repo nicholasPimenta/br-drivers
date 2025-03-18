@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export function Home() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-red-950 text-white">
+    <div className="flex justify-center items-center min-h-screen bg-neutral-800 text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 w-4/5 max-w-4xl">
         {/* Card do Gabriel Bortoleto */}
         <Link to="/bortoleto">
