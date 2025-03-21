@@ -1,7 +1,7 @@
-import { Routes, Route } from "react-router-dom";
 import { Home } from "./Pages/Home";
-import { Bortoleto } from "./Pages/Bortoleto";
 import { Camara } from "./Pages/Camara";
+import { Bortoleto } from "./Pages/Bortoleto";
+import { Routes, Route } from "react-router-dom";
 
 export function Router() {
   return (

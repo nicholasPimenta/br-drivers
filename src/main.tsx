@@ -1,8 +1,8 @@
 import React from "react";
+import "./Styles/Global.css"; // Arquivo global de estilos
+import { Router } from "./Router";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import { Router } from "./Router";
-import "./Styles/Global.css"; // Arquivo global de estilos
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
