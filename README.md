@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-Este site apresenta informações sobre os pilotos brasileiros Gabriel Bortoleto (Fórmula 2) e Rafael Câmara (Fórmula 3) na temporada de 2025. O objetivo é destacar suas trajetórias e conquistas, permitindo que mais pessoas conheçam seus talentos no automobilismo.
+Este site apresenta informações sobre os pilotos brasileiros Gabriel Bortoleto (Fórmula 1) e Rafael Câmara (Fórmula 3) na temporada de 2025. O objetivo é destacar suas trajetórias e conquistas, permitindo que mais pessoas conheçam seus talentos no automobilismo.
 
 O projeto foi desenvolvido utilizando React + TypeScript e estilizado com Tailwind CSS, proporcionando uma interface moderna, responsiva e intuitiva.
 
